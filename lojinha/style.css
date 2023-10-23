@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(fonte/Poppins-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* HEADER */
+#header {
+    background-color: #8888ca4e;
+    height: 70px;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-nome span {
+    color: rgb(100, 100, 196);
+}
+
+#carrinho-icon img {
+    width: 30px;
+    padding-right: 5px;
+}
+
+#cont-carrinho {
+    color: rgb(51, 51, 179);
+}
+
+#main {
+    margin: 0 100px;
+} 
+
+#carrinho-icon {
+    cursor: pointer;
+    display: flex;
+    align-items: baseline;
+}
+
+.produto-linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin: 15px 0;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 140px;
+    justify-content: flex-end;
+    background-color: #8888ca4e;
+    border-radius: 5px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 430px;
+    align-items: center;
+}
+
+.produtos {
+    text-align: center;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* .produtos img:hover {
+    transition: 1.5s;
+    transform: scale(1.1);
+} */
+
+.produto button {
+    background-color: rgb(100, 100, 196);
+    padding: 5px 8px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: rgb(83, 83, 186);
+    /* transition: 0.5s;
+    transform: scale(1.1); */
+}
+
+#buscar-input {
+    width: 777px;
+    border-radius: 11px;
+    padding: 0 10px;
+    height: 29px;
+}
+
+.buscar button {
+    height: 29px;
+    width: 68px;
+    border-radius: 11px;
+    background-color: rgb(100, 100, 196);
+    color: white;
+}
+
+.buscar button:hover {
+    background-color: rgb(83, 83, 186);
+}
+
+#carrinho-itens button {
+    height: 29px;
+    width: 130px;
+    border-radius: 11px;
+    background-color: rgb(100, 100, 196);
+    color: white;
+}
+
+#carrinho-itens button:hover {
+    background-color: rgb(83, 83, 186);
+}
+
+#footer {
+    background-color: #8888ca4e;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
