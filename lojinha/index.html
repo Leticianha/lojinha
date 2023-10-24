@@ -13,7 +13,7 @@
                 <h1 class="logo-nome">Book<span>Read</span></h1>
             </div>
             <div class="buscar">
-                <input type="text" id="buscar-input" placeholder="Pesquisar produto" oninput="buscarProduto()">
+                <input type="text" id="buscar-input" placeholder="Pesquisar produto" oninput="buscarProdutos()">
                 <button onclick="buscarSite()">Buscar</button>
             </div>
             <div id="carrinho-icon" onclick="toggleCarrinho()">
@@ -23,7 +23,7 @@
                 <span id="cont-carrinho">0</span>
             </div>
             <div id="carrinho-itens" style="display: none;">
-                <ul id="itens-lista"></ul>
+                <ol id="itens-lista"></ol>
                 <span id="preco-total">Valor Total: R$0,00</span>
                 <button onclick="limparCarrinho()">Limpar Carrinho</button>
             </div>

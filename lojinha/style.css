@@ -46,6 +46,7 @@ img {
 
 #main {
     margin: 0 100px;
+    min-height: 566px;
 } 
 
 #carrinho-icon {
@@ -93,6 +94,7 @@ img {
 .produtos img {
     width: 200px;
     border-radius: 10px;
+    box-shadow: 2px 1px 0 1px rgba(110, 110, 200, 0.548);
 }
 
 /* .produtos img:hover {
@@ -137,12 +139,30 @@ button:hover {
     height: 29px;
     width: 130px;
     border-radius: 11px;
+    margin-top: 20px;
     background-color: rgb(100, 100, 196);
     color: white;
 }
 
 #carrinho-itens button:hover {
     background-color: rgb(83, 83, 186);
+}
+
+.add {
+    width: 30px;
+}
+
+#carrinho-itens {
+    position: absolute;
+    left: 1036px;
+    top: 9%;
+    width: 483px;
+    padding: 0 25px 10px 45px;
+    background-color: #dbdbef;
+}
+
+#preco-total {
+    margin-top: 20px;
 }
 
 #footer {
